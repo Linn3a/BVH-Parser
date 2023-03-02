@@ -78,7 +78,7 @@ joint* create(ifstream &f,string type,string name){
 };
 // 读文件 
 
-//其实就是前序遍历 前序遍历一棵树
+//前序遍历一棵树
 void readmotion(string &mline,joint* root)
 {
     //cout<<root->name<<endl;
